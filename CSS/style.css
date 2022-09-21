@@ -5,12 +5,20 @@
 body{
     font-family: IRANSans;
 }
-button{
+/* button{
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     outline-color: rgb(0, 0, 0);
     display: flex;
     justify-content: flex-end;
+} */
+.login > button {
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    margin-right: 1100px;
+    display: flex;
+    flex-wrap: wrap;
 }
 #img-header {
   background-image: url("../img/header.jpg");
@@ -25,7 +33,7 @@ button{
     margin-left: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
 }
 .my_row{
     display: flex;
@@ -33,17 +41,11 @@ button{
     justify-content: space-between;
     align-items: center;
 }
-.login > button {
-    background-color: rgb(255, 255, 255);
-    color:rgb(0, 0, 0);
-    margin-right: 1100px;
-    display: flex;
-    flex-wrap: wrap;
-}
 .btn{
     margin-top: 10px;
     background: rgb(214, 26, 26);
     color: rgb(255, 255, 255);
+    border: 2px solid rgb(204, 5, 5);
 }
 .enable{
     color: rgb(255,215,0);
@@ -62,7 +64,7 @@ button{
     margin-top: 10px;
 }
 p{
-    font-size: 14px;
+    font-size: 15px;
 }
 .card-end{
     display: flex;
@@ -83,6 +85,18 @@ p{
     transform: translateX(2px);
     direction: ltr;
 }
+.like:hover::after {
+    content: "علاقه";
+    font-family: IRANSans !important;
+    padding-left: 10px;
+    font-size: 70%;
+}
+.shop:hover::after {
+    content: "خرید";
+    font-family: IRANSans !important;
+    padding-left: 10px;
+    font-size: 70%;
+}
 h5 {
       margin-right: 2px;
       padding-bottom: 5px;
@@ -102,10 +116,5 @@ footer {
     margin-left: 5px;
     margin-right: 5px;
 }
-.like:hover::after{
-    content: 'علاقه';
-    font-family: IRANSans !important;
-    padding-left: 10px;
-    font-size: 70%;
-}
+
 
