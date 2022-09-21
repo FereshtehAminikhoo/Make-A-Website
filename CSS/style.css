@@ -1,0 +1,111 @@
+@font-face{
+    font-family: IRANSans;
+    src: url(../fonts/FontsFree-Net-ir_sans.ttf);
+}
+body{
+    font-family: IRANSans;
+}
+button{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    outline-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: flex-end;
+}
+#img-header {
+  background-image: url("../img/header.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+}
+.card{
+    box-shadow: 3px 4px 6px 3px rgb(167, 167, 167);
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.my_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.login > button {
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    margin-right: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.btn{
+    margin-top: 10px;
+    background: rgb(214, 26, 26);
+    color: rgb(255, 255, 255);
+}
+.enable{
+    color: rgb(255,215,0);
+}
+.disable{
+    color: rgb(114, 114, 114);
+}
+.card-img-top, .card-img-top1{
+    margin-top: 10px;
+}
+.card-img-top1{
+    width: 200px;
+    height: 250px;
+    display:block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+p{
+    font-size: 14px;
+}
+.card-end{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.card-price{
+    color: rgb(167, 167, 167);
+    display: inline-block;
+}
+.shop, .like{
+    background-color: rgba(71, 4, 85, 0.973);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-style: 15px solid rgba(71, 4, 85, 0.973);
+    border-radius: 100%;
+    transition: linear;
+    transform: translateX(2px);
+    direction: ltr;
+}
+h5 {
+      margin-right: 2px;
+      padding-bottom: 5px;
+      border-bottom: 2px solid rgb(214, 26, 26);
+      display: inline;
+}
+footer {
+  background: rgb(114, 114, 114);
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;  
+  border: 5px;
+}
+.information{
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.like:hover::after{
+    content: 'علاقه';
+    font-family: IRANSans !important;
+    padding-left: 10px;
+    font-size: 70%;
+}
+
