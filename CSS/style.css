@@ -1,6 +1,6 @@
 @font-face{
     font-family: IRANSans;
-    src: url(../fonts/FontsFree-Net-ir_sans.ttf);
+    src: url("../font/iransans/ttf/IRANSansWeb(FaNum).ttf");
 }
 body{
     font-family: IRANSans;
@@ -12,7 +12,7 @@ body{
     display: flex;
     justify-content: flex-end;
 } */
-.login > button {
+.navbar-brand > button {
     background-color: rgb(255, 255, 255);
     color:rgb(0, 0, 0);
     border: 2px solid rgb(0, 0, 0);
@@ -20,8 +20,9 @@ body{
     display: flex;
     flex-wrap: wrap;
 }
-#img-header {
+.img-header {
   background-image: url("../img/header.jpg");
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
@@ -29,8 +30,8 @@ body{
 }
 .card{
     box-shadow: 3px 4px 6px 3px rgb(167, 167, 167);
-    margin-right: 20px;
-    margin-left: 20px;
+    /* margin-right: 20px;
+    margin-left: 20px; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -40,10 +41,13 @@ body{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-left: 15px;
 }
-.btn{
+.btn-offer{
     margin-top: 10px;
-    background: rgb(214, 26, 26);
+    margin-right: 15px;
+    padding: 2px;
+    background-color: rgb(214, 26, 26);
     color: rgb(255, 255, 255);
     border: 2px solid rgb(204, 5, 5);
 }
@@ -79,8 +83,9 @@ p{
     background-color: rgba(71, 4, 85, 0.973);
     color: rgb(255, 255, 255);
     padding: 10px;
+    margin-right: 5px;
     border-style: 15px solid rgba(71, 4, 85, 0.973);
-    border-radius: 100%;
+    border-radius: 20px;
     transition: linear;
     transform: translateX(2px);
     direction: ltr;
@@ -98,23 +103,26 @@ p{
     font-size: 70%;
 }
 h5 {
-      margin-right: 2px;
-      padding-bottom: 5px;
+      margin-right: 12px;
+      padding-bottom: 2px;
       border-bottom: 2px solid rgb(214, 26, 26);
       display: inline;
 }
 footer {
-  background: rgb(114, 114, 114);
+  background-color: rgb(114, 114, 114);
   color: rgb(255, 255, 255);
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;  
-  border: 5px;
+  justify-content: space-between; 
+  width: 100%;
 }
 .information{
-    margin-top: 10px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+.info{
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 
