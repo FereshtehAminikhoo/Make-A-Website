@@ -4,6 +4,10 @@
 }
 body{
     font-family: IRANSans;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100vw !important;
+
 }
 /* button{
     background-color: rgb(255, 255, 255);
@@ -111,18 +115,24 @@ h5 {
 footer {
   background-color: rgb(114, 114, 114);
   color: rgb(255, 255, 255);
-  display: flex;
+  /* display: flex;
   flex-direction: row;
   justify-content: space-between; 
-  width: 100%;
+  width: 100%; */
 }
 .information{
     margin-top: 50px;
-    margin-right: 100px;
+    padding-right: 100px;
+    display: inline;
 }
 .info{
     margin-left: 10px;
     margin-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+
 }
 
 
